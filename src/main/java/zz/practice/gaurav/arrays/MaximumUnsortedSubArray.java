@@ -32,7 +32,7 @@ public class MaximumUnsortedSubArray {
 			}else if(A.get(j)<A.get(i)) {
 				end = j;
 			}
-		}
+		}   
 		
 		ArrayList<Integer> listToReturn = new ArrayList<Integer>();
 		

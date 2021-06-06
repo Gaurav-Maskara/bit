@@ -7,10 +7,17 @@ public class WaveArray {
 
 	public static void main(String[] args) {
 
+		ArrayList<Integer> arr = new ArrayList<>();
+		
+		
+		
+		
 		
 		
 	}
 
+	
+	
 	public ArrayList<Integer> wave(ArrayList<Integer> A) {
 		Collections.sort(A);
 		int endpoint = A.size()%2 == 0 ? A.size():A.size()-1;
